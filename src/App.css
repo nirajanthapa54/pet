@@ -1,0 +1,95 @@
+.nav
+{
+  margin-left: 100px;
+}
+.nav-item
+{
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+
+.nav-link{
+
+  background-color: white;
+  color: red;
+}
+
+
+.nav-link:hover {
+text-decoration: underline;
+text-decoration-color: blue;
+
+
+}
+.input-wrapper{
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+  height: 55px;
+  padding: 0px 15px;
+  box-shadow: 0px 0px 8px #ddd;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid blue;
+}
+input
+{
+  background-color: transparent;
+  border: none;
+  height: 50px;
+  font-size: 1rem;
+  width: 350px;
+  color: green;
+  margin-left: 5px;
+  border-radius: 20px;
+ 
+}
+input:focus
+{
+  outline: none;
+  
+}
+.box
+{
+  height: 40px;
+  width: 40px;
+  background-color: blue;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#search-icon
+{
+font-size: 20px;
+ color: white;
+margin-left:8px;
+margin-top: 6px;
+ 
+}
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Lato", sans-serif;
+}
+.button
+{
+  height: 50px;
+  width: 170px;
+  background:blue;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+.arrows
+{
+  font-size: 25px;
+  color:blue;
+  background-color: white;
+  border-radius: 100%;
+}

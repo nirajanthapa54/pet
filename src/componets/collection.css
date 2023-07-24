@@ -1,0 +1,44 @@
+*
+{
+    font-family:sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: .2s
+;
+}
+
+.container .heading{
+
+    text-align: center;
+    padding-left: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    font-size: 50px;
+}
+.container .box-container2{
+
+    display: grid;
+    
+    grid-template-columns: repeat(4, minmax(300px, 500px));
+    gap: 3rem;
+    border: 1 solid blue;
+
+}
+.left
+{
+    font-style: bold;
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.box2
+{
+
+    border: 2 solid blue;
+}
